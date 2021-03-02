@@ -1,6 +1,6 @@
-(defproject rigui "0.5.3-SNAPSHOT"
+(defproject cn.leancloud/rigui "0.5.3"
   :description "Timing Wheels"
-  :url "https://github.com/sunng87/rigui"
+  :url "https://github.com/leancloud/rigui"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1" :scope "provided"]
@@ -26,5 +26,3 @@
                                    :target :nodejs
                                    :optimizations :none}}]}
   :deploy-repositories {"releases" :clojars})
-
-;;
